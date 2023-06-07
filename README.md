@@ -10,9 +10,7 @@ The project has the following structure:
 - `spam_bert_model.pkl`: The trained BERT model serialized as a pickle file.
 - `templates/`: Directory containing the HTML templates for the user interface.
   - `index.html`: The main HTML template for the classifier UI.
-- `static/`: Directory containing static files (CSS, JavaScript, etc.) for the UI.
 - `bert_model_training.ipynb`: A python jupytor note book to train the model.
-- 
 ## Dataset
 
 The dataset used for training the classifier was imbalanced, with a significantly larger number of ham (non-spam) messages compared to spam messages. Dealing with imbalanced datasets can be a challenge as it can lead to biased models. To address this issue, the following techniques were applied:
@@ -32,8 +30,8 @@ To get started with the project, follow these steps:
 3. Install the required packages:
    - pip install -r requirements.txt
 5. Import the trained BERT model:
-   - Ensure that you have the trained BERT model serialized as a `bert_model.pkl` file.
-   - Place the `bert_model.pkl` file in the root directory of the project.
+   - Ensure that you have the trained BERT model serialized as a `spam_bert_model.pkl` file.
+   - Place the `spam_bert_model.pkl` file in the root directory of the project.
 6. Run the Flask application:
    - python app.py
 7. Access the classifier UI:
