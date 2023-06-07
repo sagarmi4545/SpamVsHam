@@ -42,7 +42,7 @@ To get started with the project, follow these steps:
 
 You can customize and extend the project as needed:
 
-- **Training your own BERT model**: If you want to train your own BERT model, you can use Google Colab or any other platform that supports BERT training. Once you have the trained model, you can export it and replace the `bert_model.pkl` file in the project.
+- **Training your own BERT model**: If you want to train your own BERT model, you can use Google Colab or any other platform that supports BERT training. Once you have the trained model, you can export it and replace the `spam_bert_model.pkl` file in the project.
 
 - **UI Enhancements**: The UI templates are located in the `templates/` directory. You can modify the HTML and CSS files to change the appearance or add additional features to the classifier UI.
 
