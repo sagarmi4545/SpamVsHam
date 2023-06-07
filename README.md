@@ -7,11 +7,11 @@ This project implements a BERT-based spam vs ham classifier. It uses a pre-train
 The project has the following structure:
 
 - `app.py`: The Flask application script that serves the classifier API and UI.
-- `bert_model.pkl`: The trained BERT model serialized as a pickle file.
+- `spam_bert_model.pkl`: The trained BERT model serialized as a pickle file.
 - `templates/`: Directory containing the HTML templates for the user interface.
   - `index.html`: The main HTML template for the classifier UI.
 - `static/`: Directory containing static files (CSS, JavaScript, etc.) for the UI.
-- `requirements.txt`: A list of Python packages required to run the project.
+- `bert_model_training.ipynb`: A python jupytor note book to train the model.
 - 
 ## Dataset
 
